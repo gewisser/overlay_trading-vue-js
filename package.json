@@ -1,0 +1,45 @@
+{
+  "name": "tradingvue",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js --mode=development  --progress",
+    "build": "webpack --config webpack.prod.js --mode=production --progress --hide-modules",
+    "startDev": "webpack-dev-server --config webpack.dev.js --mode=development --progress  --open",
+    "startBuild": "webpack-dev-server --config webpack.prod.js --mode=production --progress --hide-modules --open"
+  },
+  "author": "Roman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "deepmerge": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "null-loader": "^4.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "trading-vue-js": "^0.5.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "konva": "^6.0.0"
+  }
+}
